@@ -185,3 +185,33 @@ text-decoration:none;
 .footer-links a:hover{
 color:#facc15;
 }
+
+/* RESPONSIVE - MOBILE */
+@media (max-width: 768px) {
+nav{
+flex-direction:column;
+gap:15px;
+}
+
+nav ul{
+flex-wrap:wrap;
+justify-content:center;
+gap:12px;
+}
+
+.hero h1{
+font-size:32px;
+}
+
+.hero p{
+font-size:15px;
+}
+
+section{
+padding:50px 6%;
+}
+
+.stats{
+padding:40px 6%;
+}
+}
